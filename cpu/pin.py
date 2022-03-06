@@ -86,6 +86,19 @@ PC_OUT = PC_CS
 PC_IN = PC_CS | PC_WE
 PC_INC = PC_CS | PC_WE | PC_EN
 
+_OP_SHIFT = 17
+OP_ADD = 0 << _OP_SHIFT
+OP_SUB = 1 << _OP_SHIFT
+OP_INC = 2 << _OP_SHIFT
+OP_DEC = 3 << _OP_SHIFT
+OP_AND = 4 << _OP_SHIFT
+OP_OR = 5 << _OP_SHIFT
+OP_XR = 6 << _OP_SHIFT
+OP_NOT = 7 << _OP_SHIFT
+
+ALU_OUT = 1 << 20
+ALU_PSW = 1 << 21
+
 CYC = 2 ** 30
 HLT = 2 ** 31
 

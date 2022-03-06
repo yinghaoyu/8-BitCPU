@@ -15,10 +15,14 @@ annotation = re.compile(r"(.*?);.*")
 codes = []
 
 OP2 = {
-        'MOV': ASM.MOV
+        'MOV': ASM.MOV,
+        'ADD': ASM.ADD,
+        'SUB': ASM.SUB,
 }
 
 OP1 = {
+        'INC': ASM.INC,
+        'DEC': ASM.DEC,
 }
 
 OP0 = {
@@ -57,7 +61,7 @@ class Code(object):
 
     def get_am(self, addr):
         if not addr:
-            return 0, 0
+            return None, None
         if addr in REGISTERS: # 寄存器寻址
             return pin.AM_REG, REGISTERS[addr]
         if re.match(r'^[0-9]+$', addr): # 立即寻址
@@ -73,7 +77,6 @@ class Code(object):
         match = re.match(r'^\[(.+)\]$', addr) # 寄存器间接寻址
         if match and match.group(1) in REGISTERS:
             return pin.AM_RAM, REGISTERS[match.group(1)]
-
         raise SyntaxError(self)
 
     def prepare_source(self):
@@ -98,12 +101,17 @@ class Code(object):
         ams, src = self.get_am(self.src)
 
         # 如果src存在，说明是二地址指令
-        if src and (amd, ams) not in ASM.INSTRUCTIONS[2][op]:
+        if src is not None and (amd, ams) not in ASM.INSTRUCTIONS[2][op]:
             raise SyntaxError(self)
-        if not src and dst and amd not in ASM.INSTRUCTIONS[1][op]:
+        if src is None and dst and amd not in ASM.INSTRUCTIONS[1][op]:
             raise SyntaxError(self)
-        if not src and not dst and op not in ASM.INSTRUCTIONS[0]:
+        if src is None and dst is None and op not in ASM.INSTRUCTIONS[0]:
             raise SyntaxError(self)
+
+        amd = amd or 0
+        ams = ams or 0
+        dst = dst or 0
+        src = src or 0
 
         if op in OP2SET:
             ir = op | (amd << 2) | ams
