@@ -93,7 +93,7 @@ OP_INC = 2 << _OP_SHIFT
 OP_DEC = 3 << _OP_SHIFT
 OP_AND = 4 << _OP_SHIFT
 OP_OR = 5 << _OP_SHIFT
-OP_XR = 6 << _OP_SHIFT
+OP_XOR = 6 << _OP_SHIFT
 OP_NOT = 7 << _OP_SHIFT
 
 ALU_OUT = 1 << 20

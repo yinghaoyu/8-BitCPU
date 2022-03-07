@@ -36,7 +36,23 @@
 
 ;MOV [C], [0x30];
 
-MOV D, 1
-ADD D, 5
+;MOV D, 0
+;MOV C, 0
+;ADD D, C
+;MOV D, 5
+;INC D
+;INC D
+;DEC D
+
+;MOV C, 7
+
+;MOV D, 2
+
+;CMP C, D
+;AND D, C
+;OR D, C
+;XOR D, C
+MOV D, 0xF0
+NOT D
 
 hlt;

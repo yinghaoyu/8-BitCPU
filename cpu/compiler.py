@@ -18,11 +18,16 @@ OP2 = {
         'MOV': ASM.MOV,
         'ADD': ASM.ADD,
         'SUB': ASM.SUB,
+        'CMP': ASM.CMP,
+        'AND': ASM.AND,
+        'OR': ASM.OR,
+        'XOR': ASM.XOR,
 }
 
 OP1 = {
         'INC': ASM.INC,
         'DEC': ASM.DEC,
+        'NOT': ASM.NOT,
 }
 
 OP0 = {
