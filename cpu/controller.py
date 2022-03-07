@@ -9,6 +9,8 @@ filename = os.path.join(dirname, 'micro.bin') # 将生成的文件导入ROM中
 
 micro = [pin.HLT for _ in range(0x10000)] # 数组长2^16, 初始化全填HLT
 
+CJMPS = {ASM.JO, ASM.JNO, ASM.JZ, ASM.JNZ, ASM.JP, ASM.JNP}
+
 def compile_addr2(addr, ir, psw, index):
     global micro
 
@@ -32,8 +34,29 @@ def compile_addr2(addr, ir, psw, index):
     else:
         micro[addr] = pin.CYC
 
+def get_condition_jump(exec, op, psw):
+    overflow = psw & 1
+    zero = psw & 2
+    parity = psw & 4
+
+    if op == ASM.JO and overflow:
+        return exec
+    if op == ASM.JNO and not overflow:
+        return exec
+    if op == ASM.JZ and zero:
+        return exec
+    if op == ASM.JNZ and not zero:
+        return exec
+    if op == ASM.JP and parity:
+        return exec
+    if op == ASM.JNP and not parity:
+        return exec
+
+    return [pin.CYC] # 不满足条件的直接执行下一条指令
+
 def compile_addr1(addr, ir, psw, index):
     global micro
+    global CJMPS
 
     op = ir & 0xfc
     amd = ir & 3
@@ -48,6 +71,10 @@ def compile_addr1(addr, ir, psw, index):
         return
 
     EXEC = INST[op][amd]
+
+    if op in CJMPS:
+        EXEC = get_condition_jump(EXEC, op, psw)
+
     if index < len(EXEC):
         micro[addr] = EXEC[index]
     else:

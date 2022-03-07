@@ -30,6 +30,12 @@ OP1 = {
         'DEC': ASM.DEC,
         'NOT': ASM.NOT,
         'JMP': ASM.JMP,
+        'JO': ASM.JO, # 条件跳转是区分计算机和机械的重要标志
+        'JNO': ASM.JNO,
+        'JZ': ASM.JZ,
+        'JNZ': ASM.JNZ,
+        'JP': ASM.JP,
+        'JNP': ASM.JNP,
 }
 
 OP0 = {

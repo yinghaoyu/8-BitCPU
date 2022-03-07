@@ -55,10 +55,18 @@
 ;MOV D, 0xF0
 ;NOT D
 
-  MOV D, 1
+  ;MOV D, 1
+  ;JMP decrease
+
 
 increase:
   INC D
-  JMP increase
+  CMP D, 5
+  JO increase
+decrease:
+  DEC D
+  CMP D, 0
+  JZ increase
+  JMP decrease
 
   HLT
