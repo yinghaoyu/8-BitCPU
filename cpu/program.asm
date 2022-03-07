@@ -52,7 +52,13 @@
 ;AND D, C
 ;OR D, C
 ;XOR D, C
-MOV D, 0xF0
-NOT D
+;MOV D, 0xF0
+;NOT D
 
-hlt;
+  MOV D, 1
+
+increase:
+  INC D
+  JMP increase
+
+  HLT

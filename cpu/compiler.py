@@ -13,6 +13,7 @@ outputfile = os.path.join(dirname, 'program.bin') # 将生成的文件导入RAM�
 annotation = re.compile(r"(.*?);.*")
 
 codes = []
+marks = {}
 
 OP2 = {
         'MOV': ASM.MOV,
@@ -28,6 +29,7 @@ OP1 = {
         'INC': ASM.INC,
         'DEC': ASM.DEC,
         'NOT': ASM.NOT,
+        'JMP': ASM.JMP,
 }
 
 OP0 = {
@@ -47,12 +49,19 @@ REGISTERS = {
         }
 
 class Code(object):
-    def __init__(self, number, source):
+
+    # 标记是代码还是标签,用于跳转
+    TYPE_CODE = 1
+    TYPE_LABEL = 2
+
+    def __init__(self, number, source: str): # source的代码提示是字符串
         self.number = number
         self.source = source.upper() # 全部转成大写
         self.op = None
         self.dst = None
         self.src = None
+        self.type = self.TYPE_CODE
+        self.index = 0 # 如果是标签的话,index就是asm指令的行号(行号从0开始,不算空行和标签)
         self.prepare_source()
     
     def get_op(self):
@@ -65,8 +74,11 @@ class Code(object):
         raise SyntaxError(self)
 
     def get_am(self, addr):
+        global marks
         if not addr:
             return None, None
+        if addr in marks:
+            return pin.AM_INS, marks[addr].index * 3 # 一行代码3个字节
         if addr in REGISTERS: # 寄存器寻址
             return pin.AM_REG, REGISTERS[addr]
         if re.match(r'^[0-9]+$', addr): # 立即寻址
@@ -85,6 +97,11 @@ class Code(object):
         raise SyntaxError(self)
 
     def prepare_source(self):
+        if self.source.endswith(':'):
+            self.type = self.TYPE_LABEL
+            self.name = self.source.strip(':') # 标签名去掉冒号
+            return
+
         tup = self.source.split(',')
         if len(tup) > 2:
             raise SyntaxError(self)
@@ -137,6 +154,9 @@ class SyntaxError(Exception):
 
 
 def compile_program():
+    global codes
+    global marks
+
     with open(inputfile, encoding='utf-8') as file:
         lines = file.readlines()
 
@@ -152,8 +172,28 @@ def compile_program():
         print(code)
         codes.append(code)
 
+    code = Code(index + 2, 'hlt') # 防止尾部存在空标签,在尾部加hlt
+    codes.append(code)
+
+    result = []
+
+    current = None
+    for var in range(len(codes) - 1, -1, -1): # 从尾部往前遍历
+        code = codes[var]
+        if code.type == Code.TYPE_CODE:
+            current = code # 记录代码位置,上一行有可能是标签
+            result.insert(0, code) # 往头部插入
+            continue
+        if code.type == Code.TYPE_LABEL:
+            marks[code.name] = current # 记录标签位置,位置为下一行的代码
+            continue
+        raise SyntaxError(code)
+
+    for index, var in enumerate(result): # 删除了标签行,更新索引
+        var.index = index
+
     with open(outputfile, 'wb') as file:
-        for code in codes:
+        for code in result:
             values = code.compile_code()
             for value in values:
                 #print(value)
