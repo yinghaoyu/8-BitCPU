@@ -39,11 +39,15 @@ OP1 = {
         'PUSH': ASM.PUSH,
         'POP': ASM.POP,
         'CALL': ASM.CALL,
+        'INT': ASM.INT,
 }
 
 OP0 = {
         'NOP': ASM.NOP,
         'RET': ASM.RET,
+        'IRET': ASM.IRET,
+        'STI': ASM.STI,
+        'CLI': ASM.CLI,
         'HLT': ASM.HLT,
 }
 

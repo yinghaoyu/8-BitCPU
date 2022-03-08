@@ -98,6 +98,11 @@ OP_NOT = 7 << _OP_SHIFT
 
 ALU_OUT = 1 << 20
 ALU_PSW = 1 << 21
+ALU_INT_W = 1 << 22
+ALU_INT = 1 << 23
+
+ALU_STI = ALU_INT_W
+ALU_CLI = ALU_INT_W | ALU_INT
 
 CYC = 2 ** 30
 HLT = 2 ** 31

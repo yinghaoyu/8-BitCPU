@@ -54,6 +54,12 @@ def get_condition_jump(exec, op, psw):
 
     return [pin.CYC] # 不满足条件的直接执行下一条指令
 
+def get_interrupt(exec, op, psw):
+    interrupt = psw & 8
+    if interrupt:
+        return exec
+    return [pin.CYC]
+
 def compile_addr1(addr, ir, psw, index):
     global micro
     global CJMPS
@@ -74,6 +80,8 @@ def compile_addr1(addr, ir, psw, index):
 
     if op in CJMPS:
         EXEC = get_condition_jump(EXEC, op, psw)
+    if op == ASM.INT:
+        exec = get_interrupt(EXEC, op, psw)
 
     if index < len(EXEC):
         micro[addr] = EXEC[index]

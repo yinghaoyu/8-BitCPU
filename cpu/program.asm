@@ -88,7 +88,7 @@
   jmp start
 show:
   mov d, 255
-  ret
+  iret
 
 start:
   mov c, 0
@@ -96,7 +96,7 @@ start:
 increase:
   inc c
   mov d, c
-  call show
+  int show
   jmp increase
 
 
