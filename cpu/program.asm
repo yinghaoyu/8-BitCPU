@@ -59,14 +59,28 @@
   ;JMP decrease
 
 
-increase:
-  INC D
-  CMP D, 5
-  JO increase
-decrease:
-  DEC D
-  CMP D, 0
-  JZ increase
-  JMP decrease
+;increase:
+;  INC D
+;  CMP D, 5
+;  JO increase
+;decrease:
+;  DEC D
+;  CMP D, 0
+;  JZ increase
+;  JMP decrease
+
+  MOV SS, 1
+  MOV SP, 0x10
+  MOV D, 10
+  
+  PUSH D
+  PUSH 1
+  
+  POP C
+  POP B
+  MOV A, C
+
+  ADD A, B
+  MOV D, A
 
   HLT
