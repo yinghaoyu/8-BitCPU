@@ -6,7 +6,6 @@
 		<lc:Zoom>0.715842696629216</lc:Zoom>
 		<lc:Frequency>50</lc:Frequency>
 		<lc:LogicalCircuitId>861e6a31-7025-4019-ab76-8c9232e8eea5</lc:LogicalCircuitId>
-		<lc:CategoryTextNoteCollapsed>True</lc:CategoryTextNoteCollapsed>
 		<lc:CategoryInputOutputCollapsed>True</lc:CategoryInputOutputCollapsed>
 	</lc:Project>
 	<lc:CollapsedCategory>
@@ -44866,7 +44865,7 @@ QA==</lc:Data>
 		<lc:Y>5</lc:Y>
 		<lc:Width>3</lc:Width>
 		<lc:Height>1</lc:Height>
-		<lc:Note>&lt;FlowDocument PagePadding="5,0,5,0" AllowDrop="True" NumberSubstitution.CultureSource="User" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;&lt;Paragraph TextAlignment="Right"&gt;&lt;Run FontWeight="Bold" xml:lang="zh-cn"&gt;RESET&lt;/Run&gt;&lt;/Paragraph&gt;&lt;/FlowDocument&gt;</lc:Note>
+		<lc:Note>&lt;FlowDocument PagePadding="5,0,5,0" AllowDrop="True" NumberSubstitution.CultureSource="User" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;&lt;Paragraph TextAlignment="Right"&gt;&lt;Run FontFamily="SauceCodePro Nerd Font" FontWeight="Bold" xml:lang="zh-cn"&gt;RESET&lt;/Run&gt;&lt;/Paragraph&gt;&lt;/FlowDocument&gt;</lc:Note>
 	</lc:TextNote>
 	<lc:TextNote>
 		<lc:TextNoteId>aec190a0-07f5-4b67-832d-aae850244be3</lc:TextNoteId>
@@ -44875,7 +44874,7 @@ QA==</lc:Data>
 		<lc:Y>8</lc:Y>
 		<lc:Width>3</lc:Width>
 		<lc:Height>1</lc:Height>
-		<lc:Note>&lt;FlowDocument PagePadding="5,0,5,0" AllowDrop="True" NumberSubstitution.CultureSource="User" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;&lt;Paragraph TextAlignment="Right"&gt;&lt;Run FontWeight="Bold" xml:lang="zh-cn"&gt;BUS&lt;/Run&gt;&lt;/Paragraph&gt;&lt;/FlowDocument&gt;</lc:Note>
+		<lc:Note>&lt;FlowDocument PagePadding="5,0,5,0" AllowDrop="True" NumberSubstitution.CultureSource="User" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;&lt;Paragraph TextAlignment="Right"&gt;&lt;Run FontFamily="SauceCodePro Nerd Font" FontWeight="Bold" xml:lang="zh-cn"&gt;BUS&lt;/Run&gt;&lt;/Paragraph&gt;&lt;/FlowDocument&gt;</lc:Note>
 	</lc:TextNote>
 	<lc:TextNote>
 		<lc:TextNoteId>5fd3c06c-0409-4674-a845-a86aa97d6928</lc:TextNoteId>
@@ -44884,34 +44883,7 @@ QA==</lc:Data>
 		<lc:Y>11</lc:Y>
 		<lc:Width>3</lc:Width>
 		<lc:Height>1</lc:Height>
-		<lc:Note>&lt;FlowDocument PagePadding="5,0,5,0" AllowDrop="True" NumberSubstitution.CultureSource="User" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;&lt;Paragraph TextAlignment="Right"&gt;&lt;Run FontWeight="Bold" xml:lang="zh-cn"&gt;CLOCK&lt;/Run&gt;&lt;/Paragraph&gt;&lt;/FlowDocument&gt;</lc:Note>
-	</lc:TextNote>
-	<lc:TextNote>
-		<lc:TextNoteId>c898ce96-ad96-4317-990b-bd477c6df7ac</lc:TextNoteId>
-		<lc:LogicalCircuitId>861e6a31-7025-4019-ab76-8c9232e8eea5</lc:LogicalCircuitId>
-		<lc:X>13</lc:X>
-		<lc:Y>5</lc:Y>
-		<lc:Width>3</lc:Width>
-		<lc:Height>1</lc:Height>
-		<lc:Note>&lt;FlowDocument PagePadding="5,0,5,0" AllowDrop="True" NumberSubstitution.CultureSource="User" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;&lt;Paragraph TextAlignment="Right"&gt;&lt;Run FontWeight="Bold" xml:lang="zh-cn"&gt;RESET&lt;/Run&gt;&lt;/Paragraph&gt;&lt;/FlowDocument&gt;</lc:Note>
-	</lc:TextNote>
-	<lc:TextNote>
-		<lc:TextNoteId>73be1aad-2e18-4e33-b9f9-e05d808279ab</lc:TextNoteId>
-		<lc:LogicalCircuitId>861e6a31-7025-4019-ab76-8c9232e8eea5</lc:LogicalCircuitId>
-		<lc:X>12</lc:X>
-		<lc:Y>8</lc:Y>
-		<lc:Width>3</lc:Width>
-		<lc:Height>1</lc:Height>
-		<lc:Note>&lt;FlowDocument PagePadding="5,0,5,0" AllowDrop="True" NumberSubstitution.CultureSource="User" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;&lt;Paragraph TextAlignment="Right"&gt;&lt;Run FontWeight="Bold" xml:lang="zh-cn"&gt;BUS&lt;/Run&gt;&lt;/Paragraph&gt;&lt;/FlowDocument&gt;</lc:Note>
-	</lc:TextNote>
-	<lc:TextNote>
-		<lc:TextNoteId>2bec5826-19a8-4c3d-9fff-ec6f92b68310</lc:TextNoteId>
-		<lc:LogicalCircuitId>861e6a31-7025-4019-ab76-8c9232e8eea5</lc:LogicalCircuitId>
-		<lc:X>13</lc:X>
-		<lc:Y>11</lc:Y>
-		<lc:Width>3</lc:Width>
-		<lc:Height>1</lc:Height>
-		<lc:Note>&lt;FlowDocument PagePadding="5,0,5,0" AllowDrop="True" NumberSubstitution.CultureSource="User" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;&lt;Paragraph TextAlignment="Right"&gt;&lt;Run FontWeight="Bold" xml:lang="zh-cn"&gt;CLOCK&lt;/Run&gt;&lt;/Paragraph&gt;&lt;/FlowDocument&gt;</lc:Note>
+		<lc:Note>&lt;FlowDocument PagePadding="5,0,5,0" AllowDrop="True" NumberSubstitution.CultureSource="User" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;&lt;Paragraph TextAlignment="Right"&gt;&lt;Run FontFamily="SauceCodePro Nerd Font" FontWeight="Bold" xml:lang="zh-cn"&gt;CLOCK&lt;/Run&gt;&lt;/Paragraph&gt;&lt;/FlowDocument&gt;</lc:Note>
 	</lc:TextNote>
 	<lc:TextNote>
 		<lc:TextNoteId>ee0f0c09-c38f-4829-ac98-c5780301163e</lc:TextNoteId>
@@ -44920,7 +44892,7 @@ QA==</lc:Data>
 		<lc:Y>13</lc:Y>
 		<lc:Width>3</lc:Width>
 		<lc:Height>1</lc:Height>
-		<lc:Note>&lt;FlowDocument PagePadding="5,0,5,0" AllowDrop="True" NumberSubstitution.CultureSource="User" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;&lt;Paragraph TextAlignment="Right"&gt;&lt;Run FontWeight="Bold" xml:lang="zh-cn"&gt;MC&lt;/Run&gt;&lt;/Paragraph&gt;&lt;/FlowDocument&gt;</lc:Note>
+		<lc:Note>&lt;FlowDocument PagePadding="5,0,5,0" AllowDrop="True" NumberSubstitution.CultureSource="User" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;&lt;Paragraph TextAlignment="Right"&gt;&lt;Run FontFamily="SauceCodePro Nerd Font" FontWeight="Bold" xml:lang="zh-cn"&gt;MC&lt;/Run&gt;&lt;/Paragraph&gt;&lt;/FlowDocument&gt;</lc:Note>
 	</lc:TextNote>
 	<lc:TextNote>
 		<lc:TextNoteId>677d2bf6-8d4f-4340-b37e-6a1c55659c3d</lc:TextNoteId>
@@ -44929,7 +44901,7 @@ QA==</lc:Data>
 		<lc:Y>14</lc:Y>
 		<lc:Width>3</lc:Width>
 		<lc:Height>1</lc:Height>
-		<lc:Note>&lt;FlowDocument PagePadding="5,0,5,0" AllowDrop="True" NumberSubstitution.CultureSource="User" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;&lt;Paragraph TextAlignment="Right"&gt;&lt;Run FontWeight="Bold" xml:lang="zh-cn"&gt;RAM&lt;/Run&gt;&lt;/Paragraph&gt;&lt;/FlowDocument&gt;</lc:Note>
+		<lc:Note>&lt;FlowDocument PagePadding="5,0,5,0" AllowDrop="True" NumberSubstitution.CultureSource="User" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;&lt;Paragraph TextAlignment="Right"&gt;&lt;Run FontFamily="SauceCodePro Nerd Font" FontWeight="Bold" xml:lang="zh-cn"&gt;RAM&lt;/Run&gt;&lt;/Paragraph&gt;&lt;/FlowDocument&gt;</lc:Note>
 	</lc:TextNote>
 	<lc:TextNote>
 		<lc:TextNoteId>f9b15b41-5513-4f48-890c-2a00d79897a0</lc:TextNoteId>
@@ -44938,7 +44910,7 @@ QA==</lc:Data>
 		<lc:Y>15</lc:Y>
 		<lc:Width>3</lc:Width>
 		<lc:Height>1</lc:Height>
-		<lc:Note>&lt;FlowDocument PagePadding="5,0,5,0" AllowDrop="True" NumberSubstitution.CultureSource="User" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;&lt;Paragraph TextAlignment="Right"&gt;&lt;Run FontWeight="Bold" xml:lang="zh-cn"&gt;MSR&lt;/Run&gt;&lt;/Paragraph&gt;&lt;/FlowDocument&gt;</lc:Note>
+		<lc:Note>&lt;FlowDocument PagePadding="5,0,5,0" AllowDrop="True" NumberSubstitution.CultureSource="User" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;&lt;Paragraph TextAlignment="Right"&gt;&lt;Run FontFamily="SauceCodePro Nerd Font" FontWeight="Bold" xml:lang="zh-cn"&gt;MSR&lt;/Run&gt;&lt;/Paragraph&gt;&lt;/FlowDocument&gt;</lc:Note>
 	</lc:TextNote>
 	<lc:TextNote>
 		<lc:TextNoteId>6ea3fbc8-4e90-4ac5-8654-8bf102a6c7ce</lc:TextNoteId>
@@ -44947,7 +44919,7 @@ QA==</lc:Data>
 		<lc:Y>15</lc:Y>
 		<lc:Width>3</lc:Width>
 		<lc:Height>1</lc:Height>
-		<lc:Note>&lt;FlowDocument PagePadding="5,0,5,0" AllowDrop="True" NumberSubstitution.CultureSource="User" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;&lt;Paragraph TextAlignment="Right"&gt;&lt;Run FontWeight="Bold" xml:lang="zh-cn"&gt;MAR&lt;/Run&gt;&lt;/Paragraph&gt;&lt;/FlowDocument&gt;</lc:Note>
+		<lc:Note>&lt;FlowDocument PagePadding="5,0,5,0" AllowDrop="True" NumberSubstitution.CultureSource="User" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;&lt;Paragraph TextAlignment="Right"&gt;&lt;Run FontFamily="SauceCodePro Nerd Font" FontWeight="Bold" xml:lang="zh-cn"&gt;MAR&lt;/Run&gt;&lt;/Paragraph&gt;&lt;/FlowDocument&gt;</lc:Note>
 	</lc:TextNote>
 	<lc:TextNote>
 		<lc:TextNoteId>340aff5a-38c6-4169-9408-00afa750425e</lc:TextNoteId>
@@ -44956,7 +44928,7 @@ QA==</lc:Data>
 		<lc:Y>15</lc:Y>
 		<lc:Width>3</lc:Width>
 		<lc:Height>1</lc:Height>
-		<lc:Note>&lt;FlowDocument PagePadding="5,0,5,0" AllowDrop="True" NumberSubstitution.CultureSource="User" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;&lt;Paragraph TextAlignment="Right"&gt;&lt;Run FontWeight="Bold" xml:lang="zh-cn"&gt;PC&lt;/Run&gt;&lt;/Paragraph&gt;&lt;/FlowDocument&gt;</lc:Note>
+		<lc:Note>&lt;FlowDocument PagePadding="5,0,5,0" AllowDrop="True" NumberSubstitution.CultureSource="User" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;&lt;Paragraph TextAlignment="Right"&gt;&lt;Run FontFamily="SauceCodePro Nerd Font" FontWeight="Bold" xml:lang="zh-cn"&gt;PC&lt;/Run&gt;&lt;/Paragraph&gt;&lt;/FlowDocument&gt;</lc:Note>
 	</lc:TextNote>
 	<lc:TextNote>
 		<lc:TextNoteId>f7c71eae-0795-449b-a63a-44924560df88</lc:TextNoteId>
@@ -44965,7 +44937,7 @@ QA==</lc:Data>
 		<lc:Y>15</lc:Y>
 		<lc:Width>3</lc:Width>
 		<lc:Height>1</lc:Height>
-		<lc:Note>&lt;FlowDocument PagePadding="5,0,5,0" AllowDrop="True" NumberSubstitution.CultureSource="User" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;&lt;Paragraph TextAlignment="Right"&gt;&lt;Run FontWeight="Bold" xml:lang="zh-cn"&gt;ALU&lt;/Run&gt;&lt;/Paragraph&gt;&lt;/FlowDocument&gt;</lc:Note>
+		<lc:Note>&lt;FlowDocument PagePadding="5,0,5,0" AllowDrop="True" NumberSubstitution.CultureSource="User" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;&lt;Paragraph TextAlignment="Right"&gt;&lt;Run FontFamily="SauceCodePro Nerd Font" FontWeight="Bold" xml:lang="zh-cn"&gt;ALU&lt;/Run&gt;&lt;/Paragraph&gt;&lt;/FlowDocument&gt;</lc:Note>
 	</lc:TextNote>
 	<lc:TextNote>
 		<lc:TextNoteId>5ed9bf6c-e410-41c9-8a53-df706c6b1492</lc:TextNoteId>
@@ -44974,7 +44946,7 @@ QA==</lc:Data>
 		<lc:Y>15</lc:Y>
 		<lc:Width>3</lc:Width>
 		<lc:Height>1</lc:Height>
-		<lc:Note>&lt;FlowDocument PagePadding="5,0,5,0" AllowDrop="True" NumberSubstitution.CultureSource="User" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;&lt;Paragraph TextAlignment="Right"&gt;&lt;Run FontWeight="Bold" xml:lang="zh-cn"&gt;B&lt;/Run&gt;&lt;/Paragraph&gt;&lt;/FlowDocument&gt;</lc:Note>
+		<lc:Note>&lt;FlowDocument PagePadding="5,0,5,0" AllowDrop="True" NumberSubstitution.CultureSource="User" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;&lt;Paragraph TextAlignment="Right"&gt;&lt;Run FontFamily="SauceCodePro Nerd Font" FontWeight="Bold" xml:lang="zh-cn"&gt;B&lt;/Run&gt;&lt;/Paragraph&gt;&lt;/FlowDocument&gt;</lc:Note>
 	</lc:TextNote>
 	<lc:TextNote>
 		<lc:TextNoteId>24073d5d-76c1-4bc3-96b3-c2e6d61fb87d</lc:TextNoteId>
@@ -44983,7 +44955,7 @@ QA==</lc:Data>
 		<lc:Y>15</lc:Y>
 		<lc:Width>3</lc:Width>
 		<lc:Height>1</lc:Height>
-		<lc:Note>&lt;FlowDocument PagePadding="5,0,5,0" AllowDrop="True" NumberSubstitution.CultureSource="User" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;&lt;Paragraph TextAlignment="Right"&gt;&lt;Run FontWeight="Bold" xml:lang="zh-cn"&gt;A&lt;/Run&gt;&lt;/Paragraph&gt;&lt;/FlowDocument&gt;</lc:Note>
+		<lc:Note>&lt;FlowDocument PagePadding="5,0,5,0" AllowDrop="True" NumberSubstitution.CultureSource="User" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;&lt;Paragraph TextAlignment="Right"&gt;&lt;Run FontFamily="SauceCodePro Nerd Font" FontWeight="Bold" xml:lang="zh-cn"&gt;A&lt;/Run&gt;&lt;/Paragraph&gt;&lt;/FlowDocument&gt;</lc:Note>
 	</lc:TextNote>
 	<lc:TextNote>
 		<lc:TextNoteId>372b179d-da96-4865-9e9d-3e877ae7aa72</lc:TextNoteId>
@@ -44992,7 +44964,7 @@ QA==</lc:Data>
 		<lc:Y>15</lc:Y>
 		<lc:Width>3</lc:Width>
 		<lc:Height>1</lc:Height>
-		<lc:Note>&lt;FlowDocument PagePadding="5,0,5,0" AllowDrop="True" NumberSubstitution.CultureSource="User" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;&lt;Paragraph TextAlignment="Right"&gt;&lt;Run FontWeight="Bold" xml:lang="zh-cn"&gt;MDR&lt;/Run&gt;&lt;/Paragraph&gt;&lt;/FlowDocument&gt;</lc:Note>
+		<lc:Note>&lt;FlowDocument PagePadding="5,0,5,0" AllowDrop="True" NumberSubstitution.CultureSource="User" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;&lt;Paragraph TextAlignment="Right"&gt;&lt;Run FontFamily="SauceCodePro Nerd Font" FontWeight="Bold" xml:lang="zh-cn"&gt;MDR&lt;/Run&gt;&lt;/Paragraph&gt;&lt;/FlowDocument&gt;</lc:Note>
 	</lc:TextNote>
 	<lc:TextNote>
 		<lc:TextNoteId>744bc993-76e2-4acb-aebf-713e279b37f9</lc:TextNoteId>
@@ -45001,7 +44973,7 @@ QA==</lc:Data>
 		<lc:Y>15</lc:Y>
 		<lc:Width>3</lc:Width>
 		<lc:Height>1</lc:Height>
-		<lc:Note>&lt;FlowDocument PagePadding="5,0,5,0" AllowDrop="True" NumberSubstitution.CultureSource="User" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;&lt;Paragraph TextAlignment="Right"&gt;&lt;Run FontWeight="Bold" xml:lang="zh-cn"&gt;C&lt;/Run&gt;&lt;/Paragraph&gt;&lt;/FlowDocument&gt;</lc:Note>
+		<lc:Note>&lt;FlowDocument PagePadding="5,0,5,0" AllowDrop="True" NumberSubstitution.CultureSource="User" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;&lt;Paragraph TextAlignment="Right"&gt;&lt;Run FontFamily="SauceCodePro Nerd Font" FontWeight="Bold" xml:lang="zh-cn"&gt;C&lt;/Run&gt;&lt;/Paragraph&gt;&lt;/FlowDocument&gt;</lc:Note>
 	</lc:TextNote>
 	<lc:TextNote>
 		<lc:TextNoteId>5b416729-af39-46dc-9342-3fb54025c344</lc:TextNoteId>
@@ -45010,7 +44982,7 @@ QA==</lc:Data>
 		<lc:Y>22</lc:Y>
 		<lc:Width>3</lc:Width>
 		<lc:Height>1</lc:Height>
-		<lc:Note>&lt;FlowDocument PagePadding="5,0,5,0" AllowDrop="True" NumberSubstitution.CultureSource="User" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;&lt;Paragraph TextAlignment="Right"&gt;&lt;Run FontWeight="Bold" xml:lang="zh-cn"&gt;IR&lt;/Run&gt;&lt;/Paragraph&gt;&lt;/FlowDocument&gt;</lc:Note>
+		<lc:Note>&lt;FlowDocument PagePadding="5,0,5,0" AllowDrop="True" NumberSubstitution.CultureSource="User" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;&lt;Paragraph TextAlignment="Right"&gt;&lt;Run FontFamily="SauceCodePro Nerd Font" FontWeight="Bold" xml:lang="zh-cn"&gt;IR&lt;/Run&gt;&lt;/Paragraph&gt;&lt;/FlowDocument&gt;</lc:Note>
 	</lc:TextNote>
 	<lc:TextNote>
 		<lc:TextNoteId>df2a9452-8dcf-45da-9ab9-df9239569d30</lc:TextNoteId>
@@ -45019,7 +44991,7 @@ QA==</lc:Data>
 		<lc:Y>29</lc:Y>
 		<lc:Width>3</lc:Width>
 		<lc:Height>1</lc:Height>
-		<lc:Note>&lt;FlowDocument PagePadding="5,0,5,0" AllowDrop="True" NumberSubstitution.CultureSource="User" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;&lt;Paragraph TextAlignment="Right"&gt;&lt;Run FontWeight="Bold" xml:lang="zh-cn"&gt;DST&lt;/Run&gt;&lt;/Paragraph&gt;&lt;/FlowDocument&gt;</lc:Note>
+		<lc:Note>&lt;FlowDocument PagePadding="5,0,5,0" AllowDrop="True" NumberSubstitution.CultureSource="User" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;&lt;Paragraph TextAlignment="Right"&gt;&lt;Run FontFamily="SauceCodePro Nerd Font" FontWeight="Bold" xml:lang="zh-cn"&gt;DST&lt;/Run&gt;&lt;/Paragraph&gt;&lt;/FlowDocument&gt;</lc:Note>
 	</lc:TextNote>
 	<lc:TextNote>
 		<lc:TextNoteId>75af2c1b-a83e-44a2-9a3d-beb7ef7dd7cd</lc:TextNoteId>
@@ -45028,7 +45000,7 @@ QA==</lc:Data>
 		<lc:Y>36</lc:Y>
 		<lc:Width>3</lc:Width>
 		<lc:Height>1</lc:Height>
-		<lc:Note>&lt;FlowDocument PagePadding="5,0,5,0" AllowDrop="True" NumberSubstitution.CultureSource="User" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;&lt;Paragraph TextAlignment="Right"&gt;&lt;Run FontWeight="Bold" xml:lang="zh-cn"&gt;SRC&lt;/Run&gt;&lt;/Paragraph&gt;&lt;/FlowDocument&gt;</lc:Note>
+		<lc:Note>&lt;FlowDocument PagePadding="5,0,5,0" AllowDrop="True" NumberSubstitution.CultureSource="User" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;&lt;Paragraph TextAlignment="Right"&gt;&lt;Run FontFamily="SauceCodePro Nerd Font" FontWeight="Bold" xml:lang="zh-cn"&gt;SRC&lt;/Run&gt;&lt;/Paragraph&gt;&lt;/FlowDocument&gt;</lc:Note>
 	</lc:TextNote>
 	<lc:TextNote>
 		<lc:TextNoteId>0fe2b8a7-f5c5-47cc-9737-a40102e31c1e</lc:TextNoteId>
@@ -45037,7 +45009,7 @@ QA==</lc:Data>
 		<lc:Y>51</lc:Y>
 		<lc:Width>3</lc:Width>
 		<lc:Height>1</lc:Height>
-		<lc:Note>&lt;FlowDocument PagePadding="5,0,5,0" AllowDrop="True" NumberSubstitution.CultureSource="User" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;&lt;Paragraph TextAlignment="Right"&gt;&lt;Run FontWeight="Bold" xml:lang="zh-cn"&gt;CS&lt;/Run&gt;&lt;/Paragraph&gt;&lt;/FlowDocument&gt;</lc:Note>
+		<lc:Note>&lt;FlowDocument PagePadding="5,0,5,0" AllowDrop="True" NumberSubstitution.CultureSource="User" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;&lt;Paragraph TextAlignment="Right"&gt;&lt;Run FontFamily="SauceCodePro Nerd Font" FontWeight="Bold" xml:lang="zh-cn"&gt;CS&lt;/Run&gt;&lt;/Paragraph&gt;&lt;/FlowDocument&gt;</lc:Note>
 	</lc:TextNote>
 	<lc:TextNote>
 		<lc:TextNoteId>cf29bca8-e03d-4f42-b2d0-e6bb7b59bf18</lc:TextNoteId>
@@ -45046,7 +45018,7 @@ QA==</lc:Data>
 		<lc:Y>51</lc:Y>
 		<lc:Width>3</lc:Width>
 		<lc:Height>1</lc:Height>
-		<lc:Note>&lt;FlowDocument PagePadding="5,0,5,0" AllowDrop="True" NumberSubstitution.CultureSource="User" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;&lt;Paragraph TextAlignment="Right"&gt;&lt;Run FontWeight="Bold" xml:lang="zh-cn"&gt;DS&lt;/Run&gt;&lt;/Paragraph&gt;&lt;/FlowDocument&gt;</lc:Note>
+		<lc:Note>&lt;FlowDocument PagePadding="5,0,5,0" AllowDrop="True" NumberSubstitution.CultureSource="User" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;&lt;Paragraph TextAlignment="Right"&gt;&lt;Run FontFamily="SauceCodePro Nerd Font" FontWeight="Bold" xml:lang="zh-cn"&gt;DS&lt;/Run&gt;&lt;/Paragraph&gt;&lt;/FlowDocument&gt;</lc:Note>
 	</lc:TextNote>
 	<lc:TextNote>
 		<lc:TextNoteId>6cb2e141-b69c-4598-859c-e35dc6dcbc61</lc:TextNoteId>
@@ -45055,7 +45027,7 @@ QA==</lc:Data>
 		<lc:Y>51</lc:Y>
 		<lc:Width>3</lc:Width>
 		<lc:Height>1</lc:Height>
-		<lc:Note>&lt;FlowDocument PagePadding="5,0,5,0" AllowDrop="True" NumberSubstitution.CultureSource="User" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;&lt;Paragraph TextAlignment="Right"&gt;&lt;Run FontWeight="Bold" xml:lang="zh-cn"&gt;SI&lt;/Run&gt;&lt;/Paragraph&gt;&lt;/FlowDocument&gt;</lc:Note>
+		<lc:Note>&lt;FlowDocument PagePadding="5,0,5,0" AllowDrop="True" NumberSubstitution.CultureSource="User" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;&lt;Paragraph TextAlignment="Right"&gt;&lt;Run FontFamily="SauceCodePro Nerd Font" FontWeight="Bold" xml:lang="zh-cn"&gt;SI&lt;/Run&gt;&lt;/Paragraph&gt;&lt;/FlowDocument&gt;</lc:Note>
 	</lc:TextNote>
 	<lc:TextNote>
 		<lc:TextNoteId>5c7488c3-4d87-4887-ac17-07bf9be6445f</lc:TextNoteId>
@@ -45064,7 +45036,7 @@ QA==</lc:Data>
 		<lc:Y>51</lc:Y>
 		<lc:Width>3</lc:Width>
 		<lc:Height>1</lc:Height>
-		<lc:Note>&lt;FlowDocument PagePadding="5,0,5,0" AllowDrop="True" NumberSubstitution.CultureSource="User" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;&lt;Paragraph TextAlignment="Right"&gt;&lt;Run FontWeight="Bold" xml:lang="zh-cn"&gt;BP&lt;/Run&gt;&lt;/Paragraph&gt;&lt;/FlowDocument&gt;</lc:Note>
+		<lc:Note>&lt;FlowDocument PagePadding="5,0,5,0" AllowDrop="True" NumberSubstitution.CultureSource="User" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;&lt;Paragraph TextAlignment="Right"&gt;&lt;Run FontFamily="SauceCodePro Nerd Font" FontWeight="Bold" xml:lang="zh-cn"&gt;BP&lt;/Run&gt;&lt;/Paragraph&gt;&lt;/FlowDocument&gt;</lc:Note>
 	</lc:TextNote>
 	<lc:TextNote>
 		<lc:TextNoteId>e7135283-2248-4435-bd7a-dcd0cc3494bb</lc:TextNoteId>
@@ -45073,7 +45045,7 @@ QA==</lc:Data>
 		<lc:Y>51</lc:Y>
 		<lc:Width>3</lc:Width>
 		<lc:Height>1</lc:Height>
-		<lc:Note>&lt;FlowDocument PagePadding="5,0,5,0" AllowDrop="True" NumberSubstitution.CultureSource="User" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;&lt;Paragraph TextAlignment="Right"&gt;&lt;Run FontWeight="Bold" xml:lang="zh-cn"&gt;VEC&lt;/Run&gt;&lt;/Paragraph&gt;&lt;/FlowDocument&gt;</lc:Note>
+		<lc:Note>&lt;FlowDocument PagePadding="5,0,5,0" AllowDrop="True" NumberSubstitution.CultureSource="User" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;&lt;Paragraph TextAlignment="Right"&gt;&lt;Run FontFamily="SauceCodePro Nerd Font" FontWeight="Bold" xml:lang="zh-cn"&gt;VEC&lt;/Run&gt;&lt;/Paragraph&gt;&lt;/FlowDocument&gt;</lc:Note>
 	</lc:TextNote>
 	<lc:TextNote>
 		<lc:TextNoteId>a80e1ea6-9a7d-4b5f-883c-eea4050e5680</lc:TextNoteId>
@@ -45082,7 +45054,7 @@ QA==</lc:Data>
 		<lc:Y>51</lc:Y>
 		<lc:Width>3</lc:Width>
 		<lc:Height>1</lc:Height>
-		<lc:Note>&lt;FlowDocument PagePadding="5,0,5,0" AllowDrop="True" NumberSubstitution.CultureSource="User" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;&lt;Paragraph TextAlignment="Right"&gt;&lt;Run FontWeight="Bold" xml:lang="zh-cn"&gt;DI&lt;/Run&gt;&lt;/Paragraph&gt;&lt;/FlowDocument&gt;</lc:Note>
+		<lc:Note>&lt;FlowDocument PagePadding="5,0,5,0" AllowDrop="True" NumberSubstitution.CultureSource="User" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;&lt;Paragraph TextAlignment="Right"&gt;&lt;Run FontFamily="SauceCodePro Nerd Font" FontWeight="Bold" xml:lang="zh-cn"&gt;DI&lt;/Run&gt;&lt;/Paragraph&gt;&lt;/FlowDocument&gt;</lc:Note>
 	</lc:TextNote>
 	<lc:TextNote>
 		<lc:TextNoteId>0d18c049-e848-4442-a0f7-f47749e81fae</lc:TextNoteId>
@@ -45091,7 +45063,7 @@ QA==</lc:Data>
 		<lc:Y>51</lc:Y>
 		<lc:Width>3</lc:Width>
 		<lc:Height>1</lc:Height>
-		<lc:Note>&lt;FlowDocument PagePadding="5,0,5,0" AllowDrop="True" NumberSubstitution.CultureSource="User" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;&lt;Paragraph TextAlignment="Right"&gt;&lt;Run FontWeight="Bold" xml:lang="zh-cn"&gt;SP&lt;/Run&gt;&lt;/Paragraph&gt;&lt;/FlowDocument&gt;</lc:Note>
+		<lc:Note>&lt;FlowDocument PagePadding="5,0,5,0" AllowDrop="True" NumberSubstitution.CultureSource="User" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;&lt;Paragraph TextAlignment="Right"&gt;&lt;Run FontFamily="SauceCodePro Nerd Font" FontWeight="Bold" xml:lang="zh-cn"&gt;SP&lt;/Run&gt;&lt;/Paragraph&gt;&lt;/FlowDocument&gt;</lc:Note>
 	</lc:TextNote>
 	<lc:TextNote>
 		<lc:TextNoteId>000abba2-965b-41c9-a23d-bb759fe8bcf4</lc:TextNoteId>
@@ -45100,7 +45072,7 @@ QA==</lc:Data>
 		<lc:Y>51</lc:Y>
 		<lc:Width>3</lc:Width>
 		<lc:Height>1</lc:Height>
-		<lc:Note>&lt;FlowDocument PagePadding="5,0,5,0" AllowDrop="True" NumberSubstitution.CultureSource="User" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;&lt;Paragraph TextAlignment="Right"&gt;&lt;Run FontWeight="Bold" xml:lang="zh-cn"&gt;SS&lt;/Run&gt;&lt;/Paragraph&gt;&lt;/FlowDocument&gt;</lc:Note>
+		<lc:Note>&lt;FlowDocument PagePadding="5,0,5,0" AllowDrop="True" NumberSubstitution.CultureSource="User" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;&lt;Paragraph TextAlignment="Right"&gt;&lt;Run FontFamily="SauceCodePro Nerd Font" FontWeight="Bold" xml:lang="zh-cn"&gt;SS&lt;/Run&gt;&lt;/Paragraph&gt;&lt;/FlowDocument&gt;</lc:Note>
 	</lc:TextNote>
 	<lc:TextNote>
 		<lc:TextNoteId>15541bf6-a2c0-413d-aa89-8dcbe0b0cab5</lc:TextNoteId>
@@ -45109,7 +45081,7 @@ QA==</lc:Data>
 		<lc:Y>21</lc:Y>
 		<lc:Width>3</lc:Width>
 		<lc:Height>1</lc:Height>
-		<lc:Note>&lt;FlowDocument PagePadding="5,0,5,0" AllowDrop="True" NumberSubstitution.CultureSource="User" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;&lt;Paragraph TextAlignment="Right"&gt;&lt;Run FontWeight="Bold" xml:lang="zh-cn"&gt;D&lt;/Run&gt;&lt;/Paragraph&gt;&lt;/FlowDocument&gt;</lc:Note>
+		<lc:Note>&lt;FlowDocument PagePadding="5,0,5,0" AllowDrop="True" NumberSubstitution.CultureSource="User" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;&lt;Paragraph TextAlignment="Right"&gt;&lt;Run FontFamily="SauceCodePro Nerd Font" FontWeight="Bold" xml:lang="zh-cn"&gt;D&lt;/Run&gt;&lt;/Paragraph&gt;&lt;/FlowDocument&gt;</lc:Note>
 	</lc:TextNote>
 	<lc:TextNote>
 		<lc:TextNoteId>15e7d133-d571-4154-8fcc-d490b2a8522e</lc:TextNoteId>
@@ -45118,7 +45090,7 @@ QA==</lc:Data>
 		<lc:Y>32</lc:Y>
 		<lc:Width>3</lc:Width>
 		<lc:Height>1</lc:Height>
-		<lc:Note>&lt;FlowDocument PagePadding="5,0,5,0" AllowDrop="True" NumberSubstitution.CultureSource="User" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;&lt;Paragraph TextAlignment="Right"&gt;&lt;Run FontWeight="Bold" xml:lang="zh-cn"&gt;T1&lt;/Run&gt;&lt;/Paragraph&gt;&lt;/FlowDocument&gt;</lc:Note>
+		<lc:Note>&lt;FlowDocument PagePadding="5,0,5,0" AllowDrop="True" NumberSubstitution.CultureSource="User" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;&lt;Paragraph TextAlignment="Right"&gt;&lt;Run FontFamily="SauceCodePro Nerd Font" FontWeight="Bold" xml:lang="zh-cn"&gt;T1&lt;/Run&gt;&lt;/Paragraph&gt;&lt;/FlowDocument&gt;</lc:Note>
 	</lc:TextNote>
 	<lc:TextNote>
 		<lc:TextNoteId>3a61aebd-8471-4346-96be-a3559975c71f</lc:TextNoteId>
@@ -45127,7 +45099,7 @@ QA==</lc:Data>
 		<lc:Y>39</lc:Y>
 		<lc:Width>3</lc:Width>
 		<lc:Height>1</lc:Height>
-		<lc:Note>&lt;FlowDocument PagePadding="5,0,5,0" AllowDrop="True" NumberSubstitution.CultureSource="User" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;&lt;Paragraph TextAlignment="Right"&gt;&lt;Run FontWeight="Bold" xml:lang="zh-cn"&gt;T2&lt;/Run&gt;&lt;/Paragraph&gt;&lt;/FlowDocument&gt;</lc:Note>
+		<lc:Note>&lt;FlowDocument PagePadding="5,0,5,0" AllowDrop="True" NumberSubstitution.CultureSource="User" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;&lt;Paragraph TextAlignment="Right"&gt;&lt;Run FontFamily="SauceCodePro Nerd Font" FontWeight="Bold" xml:lang="zh-cn"&gt;T2&lt;/Run&gt;&lt;/Paragraph&gt;&lt;/FlowDocument&gt;</lc:Note>
 	</lc:TextNote>
 	<lc:TextNote>
 		<lc:TextNoteId>0c2029f5-1819-435d-a89d-177064093a67</lc:TextNoteId>
@@ -45136,7 +45108,7 @@ QA==</lc:Data>
 		<lc:Y>51</lc:Y>
 		<lc:Width>3</lc:Width>
 		<lc:Height>1</lc:Height>
-		<lc:Note>&lt;FlowDocument PagePadding="5,0,5,0" AllowDrop="True" NumberSubstitution.CultureSource="User" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;&lt;Paragraph TextAlignment="Right"&gt;&lt;Run FontWeight="Bold" xml:lang="zh-cn"&gt;ES&lt;/Run&gt;&lt;/Paragraph&gt;&lt;/FlowDocument&gt;</lc:Note>
+		<lc:Note>&lt;FlowDocument PagePadding="5,0,5,0" AllowDrop="True" NumberSubstitution.CultureSource="User" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;&lt;Paragraph TextAlignment="Right"&gt;&lt;Run FontFamily="SauceCodePro Nerd Font" FontWeight="Bold" xml:lang="zh-cn"&gt;ES&lt;/Run&gt;&lt;/Paragraph&gt;&lt;/FlowDocument&gt;</lc:Note>
 	</lc:TextNote>
 	<lc:TextNote>
 		<lc:TextNoteId>9ae96c5c-6744-4015-8b67-91ba41c46864</lc:TextNoteId>
@@ -45145,7 +45117,7 @@ QA==</lc:Data>
 		<lc:Y>25</lc:Y>
 		<lc:Width>2</lc:Width>
 		<lc:Height>1</lc:Height>
-		<lc:Note>&lt;FlowDocument PagePadding="5,0,5,0" AllowDrop="True" NumberSubstitution.CultureSource="User" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;&lt;Paragraph TextAlignment="Right"&gt;&lt;Run FontWeight="Bold" xml:lang="zh-cn"&gt;CY&lt;/Run&gt;&lt;/Paragraph&gt;&lt;/FlowDocument&gt;</lc:Note>
+		<lc:Note>&lt;FlowDocument PagePadding="5,0,5,0" AllowDrop="True" NumberSubstitution.CultureSource="User" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;&lt;Paragraph TextAlignment="Right"&gt;&lt;Run FontFamily="SauceCodePro Nerd Font" FontWeight="Bold" xml:lang="zh-cn"&gt;CY&lt;/Run&gt;&lt;/Paragraph&gt;&lt;/FlowDocument&gt;</lc:Note>
 	</lc:TextNote>
 	<lc:TextNote>
 		<lc:TextNoteId>42b67563-49ab-4998-b609-c27fe705f0b7</lc:TextNoteId>
@@ -45154,7 +45126,7 @@ QA==</lc:Data>
 		<lc:Y>25</lc:Y>
 		<lc:Width>2</lc:Width>
 		<lc:Height>1</lc:Height>
-		<lc:Note>&lt;FlowDocument PagePadding="5,0,5,0" AllowDrop="True" NumberSubstitution.CultureSource="User" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;&lt;Paragraph TextAlignment="Right"&gt;&lt;Run FontWeight="Bold" xml:lang="zh-cn" xml:space="preserve"&gt;ZF &lt;/Run&gt;&lt;/Paragraph&gt;&lt;/FlowDocument&gt;</lc:Note>
+		<lc:Note>&lt;FlowDocument PagePadding="5,0,5,0" AllowDrop="True" NumberSubstitution.CultureSource="User" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"&gt;&lt;Paragraph TextAlignment="Right"&gt;&lt;Run FontFamily="SauceCodePro Nerd Font" FontWeight="Bold" xml:lang="zh-cn"&gt;ZF&lt;/Run&gt;&lt;/Paragraph&gt;&lt;/FlowDocument&gt;</lc:Note>
 	</lc:TextNote>
 	<lc:TextNote>
 		<lc:TextNoteId>17f2862b-6012-404b-90f5-046dec28e699</lc:TextNoteId>
@@ -45163,7 +45135,7 @@ QA==</lc:Data>
 		<lc:Y>25</lc:Y>
 		<lc:Width>2</lc:Width>
 		<lc:Height>1</lc:Height>
-		<lc:Note>&lt;FlowDocument PagePadding="5,0,5,0" AllowDrop="True" NumberSubstitution.CultureSource="User" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"&gt;&lt;Paragraph TextAlignment="Right"&gt;&lt;Run FontWeight="Bold" xml:lang="zh-cn" xml:space="preserve"&gt;PF  &lt;/Run&gt;&lt;/Paragraph&gt;&lt;/FlowDocument&gt;</lc:Note>
+		<lc:Note>&lt;FlowDocument PagePadding="5,0,5,0" AllowDrop="True" NumberSubstitution.CultureSource="User" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"&gt;&lt;Paragraph TextAlignment="Right"&gt;&lt;Run FontFamily="SauceCodePro Nerd Font" FontWeight="Bold" xml:lang="zh-cn" xml:space="preserve"&gt;PF &lt;/Run&gt;&lt;/Paragraph&gt;&lt;/FlowDocument&gt;</lc:Note>
 	</lc:TextNote>
 	<lc:TextNote>
 		<lc:TextNoteId>e4eacdb8-05d5-41cf-89d8-9ca1ec31a3b4</lc:TextNoteId>
@@ -45172,6 +45144,42 @@ QA==</lc:Data>
 		<lc:Y>25</lc:Y>
 		<lc:Width>2</lc:Width>
 		<lc:Height>1</lc:Height>
-		<lc:Note>&lt;FlowDocument PagePadding="5,0,5,0" AllowDrop="True" NumberSubstitution.CultureSource="User" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;&lt;Paragraph TextAlignment="Right"&gt;&lt;Run FontWeight="Bold" xml:lang="zh-cn" xml:space="preserve"&gt;IF    &lt;/Run&gt;&lt;/Paragraph&gt;&lt;/FlowDocument&gt;</lc:Note>
+		<lc:Note>&lt;FlowDocument PagePadding="5,0,5,0" AllowDrop="True" NumberSubstitution.CultureSource="User" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"&gt;&lt;Paragraph TextAlignment="Right"&gt;&lt;Run FontFamily="SauceCodePro Nerd Font" FontWeight="Bold" xml:lang="zh-cn" xml:space="preserve"&gt;IF    &lt;/Run&gt;&lt;/Paragraph&gt;&lt;/FlowDocument&gt;</lc:Note>
+	</lc:TextNote>
+	<lc:TextNote>
+		<lc:TextNoteId>80115ad8-0962-464b-9a56-0574293fb50c</lc:TextNoteId>
+		<lc:LogicalCircuitId>861e6a31-7025-4019-ab76-8c9232e8eea5</lc:LogicalCircuitId>
+		<lc:X>46</lc:X>
+		<lc:Y>35</lc:Y>
+		<lc:Width>32</lc:Width>
+		<lc:Height>5</lc:Height>
+		<lc:Note>&lt;FlowDocument PagePadding="5,0,5,0" AllowDrop="True" NumberSubstitution.CultureSource="User" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;&lt;Paragraph&gt;&lt;Run FontFamily="SauceCodePro Nerd Font" FontSize="72" xml:lang="zh-cn"&gt;一个八位二进制CPU&lt;/Run&gt;&lt;/Paragraph&gt;&lt;/FlowDocument&gt;</lc:Note>
+	</lc:TextNote>
+	<lc:TextNote>
+		<lc:TextNoteId>df4ce10f-36c7-45cc-9afc-32bdf96772e9</lc:TextNoteId>
+		<lc:LogicalCircuitId>861e6a31-7025-4019-ab76-8c9232e8eea5</lc:LogicalCircuitId>
+		<lc:X>13</lc:X>
+		<lc:Y>5</lc:Y>
+		<lc:Width>3</lc:Width>
+		<lc:Height>1</lc:Height>
+		<lc:Note>&lt;FlowDocument PagePadding="5,0,5,0" AllowDrop="True" NumberSubstitution.CultureSource="User" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;&lt;Paragraph TextAlignment="Right"&gt;&lt;Run FontFamily="SauceCodePro Nerd Font" FontWeight="Bold" xml:lang="zh-cn"&gt;RESET&lt;/Run&gt;&lt;/Paragraph&gt;&lt;/FlowDocument&gt;</lc:Note>
+	</lc:TextNote>
+	<lc:TextNote>
+		<lc:TextNoteId>e4f40c0d-fb84-4680-8041-9dbd3236c15b</lc:TextNoteId>
+		<lc:LogicalCircuitId>861e6a31-7025-4019-ab76-8c9232e8eea5</lc:LogicalCircuitId>
+		<lc:X>12</lc:X>
+		<lc:Y>8</lc:Y>
+		<lc:Width>3</lc:Width>
+		<lc:Height>1</lc:Height>
+		<lc:Note>&lt;FlowDocument PagePadding="5,0,5,0" AllowDrop="True" NumberSubstitution.CultureSource="User" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;&lt;Paragraph TextAlignment="Right"&gt;&lt;Run FontFamily="SauceCodePro Nerd Font" FontWeight="Bold" xml:lang="zh-cn"&gt;BUS&lt;/Run&gt;&lt;/Paragraph&gt;&lt;/FlowDocument&gt;</lc:Note>
+	</lc:TextNote>
+	<lc:TextNote>
+		<lc:TextNoteId>3865b9f1-7d57-4804-8b51-3c313ad31058</lc:TextNoteId>
+		<lc:LogicalCircuitId>861e6a31-7025-4019-ab76-8c9232e8eea5</lc:LogicalCircuitId>
+		<lc:X>13</lc:X>
+		<lc:Y>11</lc:Y>
+		<lc:Width>3</lc:Width>
+		<lc:Height>1</lc:Height>
+		<lc:Note>&lt;FlowDocument PagePadding="5,0,5,0" AllowDrop="True" NumberSubstitution.CultureSource="User" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;&lt;Paragraph TextAlignment="Right"&gt;&lt;Run FontFamily="SauceCodePro Nerd Font" FontWeight="Bold" xml:lang="zh-cn"&gt;CLOCK&lt;/Run&gt;&lt;/Paragraph&gt;&lt;/FlowDocument&gt;</lc:Note>
 	</lc:TextNote>
 </lc:CircuitProject>
