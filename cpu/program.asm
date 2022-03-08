@@ -69,18 +69,35 @@
 ;  JZ increase
 ;  JMP decrease
 
-  MOV SS, 1
-  MOV SP, 0x10
-  MOV D, 10
+  ;MOV SS, 1
+  ;MOV SP, 0x10
+  ;MOV D, 10
   
-  PUSH D
-  PUSH 1
+  ;PUSH D
+  ;PUSH 1
   
-  POP C
-  POP B
-  MOV A, C
+  ;POP C
+  ;POP B
+  ;MOV A, C
 
-  ADD A, B
-  MOV D, A
+  ;ADD A, B
+  ;MOV D, A
+  
+  mov ss, 1
+  MOv Sp, 0x20
+  jmp start
+show:
+  mov d, 255
+  ret
+
+start:
+  mov c, 0
+
+increase:
+  inc c
+  mov d, c
+  call show
+  jmp increase
+
 
   HLT
