@@ -30,6 +30,6 @@
 * logiccircuit 2.22.12
 * python 3.10.2
 
-## 说明
+## 致谢
 
-尊重开源社区创作者，此项目非原创，只是根据个人理解进行了复现，致谢原地址[@StevenBaby](https://github.com/StevenBaby/computer)
+Thanks to[@StevenBaby](https://github.com/StevenBaby/computer)
