@@ -1,35 +1,37 @@
-# 8位CPU的设计与实现
+# A tiny 8-bit CPU
 
-## 指令系统
+## Instruction
 
-* 地址长度`16`位
-* 指令`8`位、程序状态字`4`位、微程序周期`4`位
+* Total length `16` bit
+* operator hold `8`bit
+* eflags hold `4`bit
+* microinstruction cycle hold `4` bit
 
 ---
 
-* 立即寻址
+* Address immediately
   * `MOV A, 5`
-* 直接寻址
+* Address directly
   * `MOV A, [5]`
-* 寄存器寻址
+* Address by register
   * `MOV A, B`
-* 寄存器间接寻址
+* Address by register indirectly
   * `MOV A, [B]`
 
 ---
 
-* 二地址指令
+* double-address instruction
   * `1xxx[aa][bb]`
-* 一地址指令
+* single-address instruction
   * `01xxxx[aa]`
-* 零地址指令
+* zero-address instruction
   * `00xxxxxxxxxx`
 
-## 调试环境
+## For debug
 
 * logiccircuit 2.22.12
 * python 3.10.2
 
-## 致谢
+## Reference
 
 Thanks to[@StevenBaby](https://github.com/StevenBaby/computer)
