@@ -25,7 +25,7 @@
 * single-address instruction
   * `01xxxx[aa]`
 * zero-address instruction
-  * `00xxxxxxxxxx`
+  * `00xxxxxx`
 
 ## For debug
 
